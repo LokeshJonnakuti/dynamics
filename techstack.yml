@@ -1,0 +1,177 @@
+repo_name: LokeshJonnakuti/dynamics
+report_id: 90efd1f69b7d07017a7f7cb7253c56a2
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-14T10:52:07+00:00'
+requested_by: mbchang
+provider: github
+branch: master
+detected_tools_count: 13
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics
+  detection_source: Repo Metadata
+- name: Lua
+  description: Powerful, fast, lightweight, embeddable scripting language
+  website_url: http://www.lua.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2118/128px-Lua-Logo.svg.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics
+  detection_source: Repo Metadata
+- name: RequireJS
+  description: JavaScript file and module loader
+  website_url: http://requirejs.org/
+  version: 2.2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/852/1781835.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: Underscore
+  description: JavaScript's utility _ belt
+  website_url: http://underscorejs.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/1150/underscore-js.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: circular-json
+  description: JSON does not handle circular references. This version does
+  package_url: https://www.npmjs.com/circular-json
+  version: 0.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18007/default_ab659b5159df20d1c32f07b936d63628134f5b3d.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: command-line-args
+  description: A mature
+  package_url: https://www.npmjs.com/command-line-args
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16723/default_848dc5bc612658cea8d631cff0259d9588c28fea.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: graceful-fs
+  description: A drop-in replacement for fs, making various improvements
+  package_url: https://www.npmjs.com/graceful-fs
+  version: 4.1.4
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16375/default_c47f6a56d74fae4d4404d77067b2fa35da6f1924.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: jsonfile
+  description: Easily read/write JSON files
+  package_url: https://www.npmjs.com/jsonfile
+  version: 2.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16381/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: sleep
+  description: Add sleep
+  package_url: https://www.npmjs.com/sleep
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17792/default_a3a8e3ccb38174acb180f0920c5d4e2fea848911.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
+- name: yargs
+  description: Yargs the modern, pirate-themed, successor to optimist
+  package_url: https://www.npmjs.com/yargs
+  version: 4.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/LokeshJonnakuti/dynamics/blob/master/src/js/package.json
+  detection_source: src/js/package.json
+  last_updated_by: Michael Chang
+  last_updated_on: 2016-11-23 15:38:04.000000000 Z
